@@ -1,0 +1,9 @@
+{
+    "first_time": false,
+    "talk": true,
+    "voice": false,
+    "discord": false,
+    "interface": false,
+    "online": false,
+    "offline": true
+}

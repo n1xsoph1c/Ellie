@@ -1,0 +1,53 @@
+{
+	"greetings": [
+		"hi",
+		"hello",
+		"hey",
+		"sup"
+	],
+	"info": {
+		"number": "number",
+		"email": "email",
+		"social_media": [
+			"facebook",
+			"whatsapp",
+			"instagram",
+			"twitter",
+			"discord"
+		]
+	},
+	"identity": {
+		"self": [
+			"you",
+			"your",
+			"yours"
+		],
+		"name": "name",
+		"age": [
+			"age",
+			"old"
+		],
+		"owner": [
+			"creator",
+			"owner",
+			"maker"
+		]
+	},
+	"person": {
+		"gender": {
+			"male": "he",
+			"female": "she"
+		},
+		"user": [
+			"i"
+		]
+	},
+	"ask": {
+		"object": "what",
+		"someone": "who",
+		"reason": "why",
+		"time": "when",
+		"place": "where",
+		"event": "how"
+	}
+}

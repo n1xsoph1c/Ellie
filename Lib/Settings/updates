@@ -1,0 +1,154 @@
+All Updates of Ellie Given below:
+
+<----------------------- -> Previous Updates < ------------------------ ->
+   Ellie can greet
+    Ellie can reply to greeting(user: Hi -> Ellie: Hello)
+    Ellie can answer questions(What and Do you type Question for now)
+
+<----------------------- -> Updates of 2019 < ------------------------- ->
+#----------------------------| JANUARY |------------------------------#
+    Mon 28 Jan, 2019 - ---------------------------------------------- v 0.0.01
+       - Added Update Feature to see new update of Ellie(/update)
+
+    Thu 31 Jan, 2019 - ---------------------------------------------- v 0.0.02
+       - Added music_player feature. Ellie can now play music from the device
+
+
+#----------------------------| FEBRUARY |-----------------------------#
+    Fri 01 Feb, 2019 - ---------------------------------------------- v 0.0.03
+        - Updated music_player feature.
+            - Volume can now be set from 0 - 100 (/setVol < volume > )
+            - All the music available on the device can be seen by typing / all
+
+    Sat 02 Feb, 2019 - ---------------------------------------------- v 0.0.04
+       - Tried to make Ellie go live on website. Will work on that after 10 hours from now.
+
+    Sun 03 Feb, 2019 - ---------------------------------------------- v 0.0.05
+       - Terminated Live Ellie idea. Executed new idea(GUI version of Ellie)
+        - Added gui to Ellie. Ellie is not a console version anymore
+
+    Mon 04 Feb, 2019 - --------------------------------------------- v 0.0.06
+       - Updated elli's Visual.
+        - Added Dark Theme to Ellie
+
+    Thu 21 Feb, 2019 - --------------------------------------------- v 0.0.07
+       - Made Ellie online
+
+
+#--------------------| ONE FULL MONTH LATER |----------------------#
+#-------------------------------| APRIL |-------------------------------#
+    Sun 28 Apr 2019 - ---------------------------------------------- v 0.1.0
+       - Added new features:
+            - Face-recognition(She uses the web-cam and OpenCV for recognition)
+            - Voice Recognition(She uses google_api if online and CMUSphinx to recognise voice if offline)
+            - Reaction system(Added Happy, Sad, Curious and Confusion Reactions)
+            - Jokes(Its a part of the Reaction Class)
+        - Fixed Question Answering problem
+        - Updated Question system
+        (Taught her Interrogative sentence. She can now recognise the question type and answer according to it)
+
+
+    Mon 29 Apr 2019 - ---------------------------------------------- v 0.1.01
+        - Updated Info on Updates (Added Informations on / update)
+        - Added Goals Feature to see new goals of Mine(/mygoals)
+
+    Mon 6 May 2019 - ---------------------------------------------- v 0.1.02
+       - Updated ChatHistory Design (It maintains a beautiness on 'ChatHistory.txt' file)
+        - Fixed chathistory issues
+        - Fixed reaction problems and added some new reaction features
+
+#--------------------| ONE FULL MONTH LATER |----------------------#
+#-------------------------------| JULY |--------------------------------#
+    Tue 2 Jul 2019 - ---------------------------------------------- v 0.1.02.0
+       - Changed the command name of music player:
+            = >  /p            ===>    /pause
+            = >  /r            ===>    /resume
+            = >  /s            ===>    /stop
+            = >  /getVol    ===>    /Volume
+        - Added new feature:
+            > Loop Mode. To use it  use the command is "/loop" on music player
+            > Playlist system. To use it use the command "/playall" on music player
+
+    Tue 9 Jul 2019 - ---------------------------------------------- v 0.1.2
+       - Added new GUI for Ellie
+        - Changed Input system! Made Input GUI Usable
+        - Changed the command '/play' to '/playmuic'. Usage / playmusic musicname
+        - Added Feature to be able to download video from youtube! Usage / downloadvideo
+        - Added Feature to play video from Video list. Usage / playvideo. Video list location (Youtube/Videos)
+
+    Wed 10 Jul 2019 - --------------------------------------------- v 0.1.3
+       - Added new feature that Lets her send messesages on Facebook
+
+    Thu 11 Jul 2019 - --------------------------------------------- v 0.1.3
+       - Added new feature that searches for questions on Wikipedia
+
+    Fri 12 Jul 2019 - --------------------------------------------- v 0.1.3
+       - Added new feature that searches for videos on Youtube
+
+    Sat 13 Jul 2019 - --------------------------------------------- v 0.1.3
+       - Fiexd some bugs
+        - Created an alternate Input System
+        - Added a new feature that sends mail to a user with his email
+
+    Sun 14 Jul 2019 - ---------------------------------------------- v 0.1.3
+       - Connected Ellie to discrod (Elli3)
+
+    Sat 20 Jul 2019 - ---------------------------------------------- v 0.1.3
+       - Added new feature that reads text from Images(OCR)
+
+    Mon 22 Jul 2019 - --------------------------------------------- v 0.1.3
+       - Updated OCR feature that from now it can also read Bangli text from
+            Images
+        - Updated Ellie's Settings folder(userSettings.txt -> userSettings.json)
+
+
+#-----------------------------| AUGUST |------------------------------#
+   Thu 1 Aug 2019 - ----------------------------------------------- v0.1.4
+      - Updated "updates" file. It looks beautiful.
+      - Added new gui. It uses google chrome instead of pygame
+      - Updated directory structure, now it looks clean
+         Ellie/
+               Lib/
+                   Library Files i.e "Settings"
+               E3P/
+                   Other Modules i.e "Ellie_Visual_Effect"
+               core_scripts.py
+   
+   Sun 4 Aug 2019 ------------------------------------------------- v0.1.4.1
+      - Updated misc module
+         (Updates() now returns updates instead of printing it)
+
+   Mon 5 Aug 2019 ------------------------------------------------- v0.1.4.2
+      - Updated Music Player
+         Added new playlist feature that It can now play all the music 
+         available and user can also change or skip the music with 
+         Right (--->) and Left (<---) arrow key!
+      
+   Tue 6 Aug 2019 ------------------------------------------------- v0.1.4.3 
+      - Updated Music Player
+         - Added auto play system. It can now play all the musics one 
+           by one!
+         - Player can be paused or resumed by pressing Space bar
+         - Volume can be increased or decreased by pressing Up arrow
+           or down arrow
+
+   Wed 7 Aug 2019 ------------------------------------------------ v0.1.4.4
+      - Added a new feature (Word Analizer)
+         It analizes the word from sentence and returns the sentence
+         meaning in Ellie Language
+
+      - Updated info on some scripts. Now its easy to know what you 
+         should do after the module call.
+
+   Wed 14 Aug 2019 ---------------------------------------------- v0.1.4.5 
+      - Added a new feature (log)
+         It prints msg on terminal according to the log  
+         example: log().error("Got some error", "From Ellie")
+         output: [Error | (form ellie)] Got some Error (Red color) 
+      
+      - Launched new website (ellie.amarzaan.com)
+
+   Sat 17 Aug 2019 ----------------------------------------------- v0.1.5.0
+      - Did some major updates on gui
+         Add more stylish looks and some features
+

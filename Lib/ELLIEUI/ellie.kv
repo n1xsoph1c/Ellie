@@ -1,0 +1,262 @@
+<MainMenu@Image>:
+	reference_size: self.texture_size
+
+<SettingsMenu@Image>:
+	reference_size: self.texture_size
+
+<MainMenu>: 
+	label_wid: my_custom_label
+	source: "Lib/Images/background.png"
+
+	GridLayout:
+		cols: 2
+		padding: 10
+		spacing: 10
+		size_hint: 1, 1
+		
+		BoxLayout:
+			orientation: 'vertical'
+			spacing: 10
+			size_hint: .13, 1
+
+			AnchorLayout:
+				anchor_x: "left"
+				anchor_y: "top"
+				size_hint: 1, .7
+				BoxLayout:
+					orientation: "vertical"
+					spacing: 10
+
+					RoundedButton:
+						text: "[b]Music[/b]"
+						color: 1, 0, .168, 1
+						size_hint: 1, .2
+						size: (70, 70)
+					
+					RoundedButton:
+						text: "[b]Radio[/b]"
+						color: 1, 0, .168, 1
+						size_hint: 1, .2
+						size: (70, 70)
+
+					RoundedButton:
+						text: "[b]Video[/b]"
+						color: 1, 0, .168, 1
+						size_hint: 1, .2
+						size: (70, 70)
+					
+					RoundedButton:
+						text: "[b]Theme[/b]"
+						color: 1, 0, .168, 1
+						size_hint: 1, .2
+						size: (70, 70)
+
+					RoundedButton:
+						text: "[b]FAQ[/b]"
+						color: 1, 0, 0.168, 1
+						size_hint: 1, 0.2
+						size: (70, 70)
+						on_press:
+							root.manager.transition.direction = 'down' 
+							root.manager.transition.duration = 1.5 
+							root.manager.current = 'faq_menu'
+
+			AnchorLayout:
+				anchor_x: "left"
+				anchor_y: "bottom"
+				RoundButton:
+					text: ""
+					color: 1, 0, .168, 1
+					size_hint: (None, None)
+					size: (70, 70)
+					on_press: 
+						root.manager.transition.direction = 'right' 
+						root.manager.transition.duration = 1 
+						root.manager.current = 'settings_menu'
+					Image:
+						source: "Lib/ELLIEUI/setting_icon.png"
+						size: (87, 87)
+
+		
+		BoxLayout:
+			orientation: 'vertical'
+			padding: 10 
+
+			Label:
+				id: my_custom_label 
+				text: "[size=80][b]ELLI3[/b][/size]\n[size=30][b]Your personal assistant[/b][/size]"
+				font_size: 30
+				markup: True
+				shorten: True
+				valign: "center"
+				halign: "center"
+
+			BoxLayout:
+				orientation: 'horizontal'
+				padding: "10dp"
+				spacing: "20dp"
+
+				TextInput:
+					id: txt_inpt
+					color: 1, 1, 1, 1
+					size_hint: .8, .11
+					multiline: False
+					background_color: (.4, .4, .4, 1)
+					font_color: (1, 1, 1, 1)
+
+				RoundedButton:
+					color: 1, 1, 1, 1
+					back_color: .4, .4, .4, 1
+					size: (30, 70)
+					size_hint: .2, .11
+					text: "[b]Send[/b]"
+					markup: True
+					on_press: root.text(txt_inpt.text)
+
+
+<SettingsMenu>: 
+	source: "Lib/ELLIEUI/Layer.png"
+		
+	GridLayout: 
+		id: gl
+		cols: 2
+		spacing: 20
+		padding: 20
+		popup: popup.__self__
+		Popup:
+			id: popup
+			title: "Elli3 | Notification"
+			content: popupcontent
+			on_parent: if self.parent == gl: gl.remove_widget(self)
+			RoundedButton:
+				color: 1, 1, 1, 1
+				back_color: .145, .219, .219, 1
+				font_size: 30
+				background_color:
+				id: popupcontent
+				text: "[b]You must restart to apply the changes! \nPress to dismiss[b]"
+				on_release: popup.dismiss()
+		
+		Info: 
+			text: "[size=25][b]Text to speech[/b]"
+			color: 1, 1, 1, 1
+		
+		RoundedButton: 
+			id: tts
+			text: "[b]" + root.get_btn_state("tts", "text") + "[b]"
+			color: 1, 1, 1, 1
+			back_color: .145, .219, .219, 1
+			state: root.get_btn_state("tts", "btn_state")
+			font_size: 25
+			on_release:
+				root.change_btn_state("tts")
+				gl.popup.open()
+
+		Info: 
+			text: "[size=25][b]Voice Mode[/b][/size]"
+			color: 1, 1, 1, 1
+		
+		RoundedButton:
+			id: vM
+			text: "[b]" + root.get_btn_state("voice", "text") + "[b]"
+			color: 1, 1, 1, 1
+			back_color: .145, .219, .219, 1
+			state: root.get_btn_state("voice", "btn_state")
+			font_size: 25
+			on_release:
+				root.change_btn_state("voice")
+				gl.popup.open()
+
+		Info: 
+			text: "[size=25][b]Switch to" + root.get_btn_state("network", ">text<") + "[/b][/size]"
+			color: 1, 1, 1, 1
+		
+		RoundedButton: 
+			text: "[b]" + root.get_btn_state("network", "text") + "[/b]"
+			color: 1, 1, 1, 1
+			back_color: .145, .219, .219, 1
+			state: root.get_btn_state("network", "btn_state") 
+			font_size: 25
+		
+		Info:
+			text: "[size=25][b]Go Back[/b][/size]"
+			color: 1, 1, 1, 1
+
+		RoundedButton:
+			text: "[b]Main Menu[b]"
+			color: 1, 1, 1, 1
+			back_color: .145, .219, .219, 1
+			font_size: 25
+			on_press: 
+				root.manager.transition.direction = 'left' 
+				root.manager.transition.duration = 1 
+				root.manager.current = 'main_menu'
+
+<FaQ>:
+	BoxLayout:
+		orientation: "vertical"
+		Label: 
+			text: root.get_document()
+			markup: True 
+			halign: "center"
+			valign: 'center'
+	
+	AnchorLayout:
+		anchor_x: "right"
+		anchor_y: "bottom"
+		spacing: 10
+		padding: 10
+		RoundButton:
+			markup: True
+			valign: "center"
+			halign: "center"
+			size: (70, 70)
+			size_hint: (None, None)
+			back_color: 1, 1, 1, 1
+			font_size: 30
+			text: "[size=50][b]«[/b][/size]"
+			color: 1, 0, .168, 1
+			on_release:
+				root.manager.transition.direction = 'up' 
+				root.manager.transition.duration = 1.5
+				root.manager.current = 'main_menu'
+			
+
+<RoundButton@Button>:
+	id: r_btn
+	markup: True
+	background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+	back_down: ''
+	back_normal: ''
+	back_color: 1, 1, 1, 1
+	background_down: r_btn.back_down
+	background_normal: r_btn.back_normal
+	canvas.before:
+		Color:
+			rgba: r_btn.back_color if self.state=='normal' else (0,.7,.7,1)
+		Ellipse:
+			size: self.size 
+			pos: self.pos
+
+
+<RoundedButton@Button>:
+	id: rb
+	markup: True
+    background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+	background_down: ''
+	back_color: .5, 8, 7
+    canvas.before:
+        Color:
+            rgba: rb.back_color if self.state=='normal' else (0,.7,.7,1)  # visual feedback of press
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [16, 18]
+
+<Info@Label>
+	text: ''
+	markup: True
+	font_size: 20
+	shorten: True
+	valign: "center"
+	halign: "center"

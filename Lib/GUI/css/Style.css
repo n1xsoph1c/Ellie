@@ -1,0 +1,154 @@
+.settings{
+    display: block;
+    padding: 20%;
+    height: 550px;
+    background-color: snow;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.section{
+    margin: 10%;
+    display: flex;
+    height: 10%;
+}
+
+.section p{
+    padding: 3%;
+    width: 100%;
+}
+
+.section button{
+/*    position: relative;*/
+}
+
+.row{
+    height: 600px;
+    width: 780px;
+}
+
+.sidebar{
+    background-color: #3c3c3c;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.sidebar-menu{
+    background-color: orangered;
+    width: 190px;
+    position: relative;
+    left: -12%;
+    padding: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    color: ghostwhite;
+        
+    border: 0px solid red;
+    border-right-width: 5px;
+    border-right-color: orangered;
+}
+
+#sidebar-text{
+    margin-top: 4%;
+    font-size: 18px;
+    font-family: "Whitney Cond A", "Whitney Cond B", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    font-weight: 600;
+    text-align: center;
+}   
+
+.sidebar-menu:hover{
+    background-color: snow;
+    color: orangered;
+    
+    border: 0px solid red;
+    border-right-width: 8px;
+    border-right-color: orangered;
+}
+
+.main{
+    padding: 10% 2.5% 10% 2.5%;
+    background-color: #efefef;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar{
+    padding: 10px;
+}
+
+.btn-modern{
+    margin-left: 5px;
+    background-color: orangered;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 20%;
+    color: snow;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn-orangered{
+    position: relative;
+    background-color: orangered;
+    color: snow;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-left: 40%;
+}
+
+.btn-orangered:hover{
+    background-color: #efefef;
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+.btn-modern:hover{
+    background-color: snow;
+    color: orangered;
+}
+
+.input{
+    display: flex;
+    position: absolute;
+    top: 90%;
+    width: 97%;
+}
+
+.chatbox{
+    height: 93%;
+/*    background: blue;*/
+/*    display: flex;*/
+}
+
+.inbox{
+    color: #3f3f3f;
+    font-family: "Comic Sans MS";
+    font-size-adjust: auto;
+    font-size: 20px;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+    .Social h2{
+        font-size: 20px;
+    }
+    
+    .panel {
+        border: 1px solid deepskyblue; 
+        border-radius:0 !important;
+        transition: box-shadow 0.5s;
+        height: auto;
+        margin: 20px 50px;
+        overflow: hidden;
+  }
+}

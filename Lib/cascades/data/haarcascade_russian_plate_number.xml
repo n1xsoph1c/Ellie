@@ -1,0 +1,578 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<cascade>
+  <stageType>BOOST</stageType>
+  <featureType>HAAR</featureType>
+  <height>20</height>
+  <width>60</width>
+  <stageParams>
+    <boostType>GAB</boostType>
+    <minHitRate>9.9500000476837158e-001</minHitRate>
+    <maxFalseAlarm>5.0000000000000000e-001</maxFalseAlarm>
+    <weightTrimRate>9.4999999999999996e-001</weightTrimRate>
+    <maxDepth>1</maxDepth>
+    <maxWeakCount>100</maxWeakCount></stageParams>
+  <featureParams>
+    <maxCatCount>0</maxCatCount>
+    <featSize>1</featSize>
+    <mode>ALL</mode></featureParams>
+  <stageNum>20</stageNum>
+  <stages>
+    <!-- stage 0 -->
+    <_>
+      <maxWeakCount>6</maxWeakCount>
+      <stageThreshold>-1.3110191822052002e+000</stageThreshold>
+      <weakClassifiers>
+        <_>
+          <internalNodes>
+            0 -1 193 1.0079263709485531e-002</internalNodes>
+          <leafValues>
+            -8.1339186429977417e-001 5.0277775526046753e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 94 -2.2060684859752655e-002</internalNodes>
+          <leafValues>
+            7.9418992996215820e-001 -5.0896102190017700e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 18 -4.8777908086776733e-002</internalNodes>
+          <leafValues>
+            7.1656656265258789e-001 -4.1640335321426392e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 35 1.0387318208813667e-002</internalNodes>
+          <leafValues>
+            3.7618312239646912e-001 -8.5504144430160522e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 191 -9.4083719886839390e-004</internalNodes>
+          <leafValues>
+            4.2658549547195435e-001 -5.7729166746139526e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 48 -8.2391249015927315e-003</internalNodes>
+          <leafValues>
+            8.2346975803375244e-001 -3.7503159046173096e-001</leafValues></_></weakClassifiers></_>
+    <!-- stage 1 -->
+    <_>
+      <maxWeakCount>6</maxWeakCount>
+      <stageThreshold>-1.1759783029556274e+000</stageThreshold>
+      <weakClassifiers>
+        <_>
+          <internalNodes>
+            0 -1 21 1.7386786639690399e-001</internalNodes>
+          <leafValues>
+            -6.8139964342117310e-001 6.0767590999603271e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 28 -1.9797295331954956e-002</internalNodes>
+          <leafValues>
+            7.8072130680084229e-001 -4.4399836659431458e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 46 -1.0154811898246408e-003</internalNodes>
+          <leafValues>
+            3.3383268117904663e-001 -7.6357340812683105e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 138 2.4954911321401596e-002</internalNodes>
+          <leafValues>
+            -3.9979115128517151e-001 6.8620890378952026e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 25 2.8837744612246752e-003</internalNodes>
+          <leafValues>
+            -2.7928480505943298e-001 7.9980146884918213e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 26 -3.8839362561702728e-002</internalNodes>
+          <leafValues>
+            -7.8442335128784180e-001 3.4929576516151428e-001</leafValues></_></weakClassifiers></_>
+    <!-- stage 2 -->
+    <_>
+      <maxWeakCount>6</maxWeakCount>
+      <stageThreshold>-1.7856997251510620e+000</stageThreshold>
+      <weakClassifiers>
+        <_>
+          <internalNodes>
+            0 -1 34 2.7977079153060913e-002</internalNodes>
+          <leafValues>
+            -5.8424139022827148e-001 6.6850829124450684e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 171 1.9148588180541992e-002</internalNodes>
+          <leafValues>
+            -6.5457659959793091e-001 4.0804430842399597e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 7 1.1955041438341141e-002</internalNodes>
+          <leafValues>
+            -4.2002618312835693e-001 5.6217432022094727e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 45 -2.1218564361333847e-002</internalNodes>
+          <leafValues>
+            7.1812576055526733e-001 -3.0354043841362000e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 108 2.0117280655540526e-004</internalNodes>
+          <leafValues>
+            -6.1749500036239624e-001 3.5549193620681763e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 122 3.9725980604998767e-004</internalNodes>
+          <leafValues>
+            -2.6844096183776855e-001 7.6771658658981323e-001</leafValues></_></weakClassifiers></_>
+    <!-- stage 3 -->
+    <_>
+      <maxWeakCount>9</maxWeakCount>
+      <stageThreshold>-1.1837021112442017e+000</stageThreshold>
+      <weakClassifiers>
+        <_>
+          <internalNodes>
+            0 -1 202 -1.3291766867041588e-002</internalNodes>
+          <leafValues>
+            4.5248869061470032e-001 -5.8849954605102539e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 79 -4.8353265970945358e-002</internalNodes>
+          <leafValues>
+            7.0951640605926514e-001 -3.2546108961105347e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 22 2.6532993651926517e-003</internalNodes>
+          <leafValues>
+            -2.5343564152717590e-001 7.6588714122772217e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 66 -3.8548894226551056e-002</internalNodes>
+          <leafValues>
+            5.8126109838485718e-001 -3.0813106894493103e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 41 -6.8602780811488628e-004</internalNodes>
+          <leafValues>
+            2.6361095905303955e-001 -7.2226840257644653e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 69 -2.5726919993758202e-002</internalNodes>
+          <leafValues>
+            -8.7153857946395874e-001 1.9438524544239044e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 24 8.4192806389182806e-004</internalNodes>
+          <leafValues>
+            -3.6150649189949036e-001 5.2065432071685791e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 62 -2.6956878136843443e-003</internalNodes>
+          <leafValues>
+            5.9945529699325562e-001 -2.8344830870628357e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 112 3.0572075396776199e-002</internalNodes>
+          <leafValues>
+            -3.0688971281051636e-001 5.7261526584625244e-001</leafValues></_></weakClassifiers></_>
+    <!-- stage 4 -->
+    <_>
+      <maxWeakCount>8</maxWeakCount>
+      <stageThreshold>-1.4687808752059937e+000</stageThreshold>
+      <weakClassifiers>
+        <_>
+          <internalNodes>
+            0 -1 5 3.1486168503761292e-002</internalNodes>
+          <leafValues>
+            -5.7836848497390747e-001 3.7931033968925476e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 150 2.8311354108154774e-003</internalNodes>
+          <leafValues>
+            -5.7888329029083252e-001 3.2841828465461731e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 76 -4.2060948908329010e-002</internalNodes>
+          <leafValues>
+            5.5578106641769409e-001 -3.2662427425384521e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 115 6.2936875037848949e-003</internalNodes>
+          <leafValues>
+            -2.1032968163490295e-001 7.8646916151046753e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 51 7.0570126175880432e-002</internalNodes>
+          <leafValues>
+            -4.3683132529258728e-001 4.0298295021057129e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 135 2.5173835456371307e-003</internalNodes>
+          <leafValues>
+            -2.0461565256118774e-001 8.2858163118362427e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 102 1.5648975968360901e-003</internalNodes>
+          <leafValues>
+            -2.4848082661628723e-001 6.0209411382675171e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 177 -3.5970686003565788e-003</internalNodes>
+          <leafValues>
+            2.3294737935066223e-001 -6.5612471103668213e-001</leafValues></_></weakClassifiers></_>
+    <!-- stage 5 -->
+    <_>
+      <maxWeakCount>9</maxWeakCount>
+      <stageThreshold>-1.1029583215713501e+000</stageThreshold>
+      <weakClassifiers>
+        <_>
+          <internalNodes>
+            0 -1 27 -1.1257569491863251e-001</internalNodes>
+          <leafValues>
+            3.3181819319725037e-001 -5.3901344537734985e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 142 3.8014666642993689e-003</internalNodes>
+          <leafValues>
+            -3.6430206894874573e-001 4.5984184741973877e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 57 9.8789634648710489e-004</internalNodes>
+          <leafValues>
+            -2.6661416888237000e-001 5.6971323490142822e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 55 2.1719809621572495e-002</internalNodes>
+          <leafValues>
+            1.8432702124118805e-001 -8.2999354600906372e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 111 5.1051773130893707e-002</internalNodes>
+          <leafValues>
+            1.4391148090362549e-001 -9.4541704654693604e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 164 1.8956036074087024e-003</internalNodes>
+          <leafValues>
+            -6.0830104351043701e-001 2.6091885566711426e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 81 -5.8700828813016415e-003</internalNodes>
+          <leafValues>
+            6.9104760885238647e-001 -2.6916843652725220e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 116 -1.1522199492901564e-003</internalNodes>
+          <leafValues>
+            -6.9503885507583618e-001 2.4749211966991425e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 90 -5.1933946087956429e-003</internalNodes>
+          <leafValues>
+            5.8551025390625000e-001 -3.0389472842216492e-001</leafValues></_></weakClassifiers></_>
+    <!-- stage 6 -->
+    <_>
+      <maxWeakCount>9</maxWeakCount>
+      <stageThreshold>-9.0274518728256226e-001</stageThreshold>
+      <weakClassifiers>
+        <_>
+          <internalNodes>
+            0 -1 205 -1.4383997768163681e-002</internalNodes>
+          <leafValues>
+            4.5400592684745789e-001 -4.9917897582054138e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 114 -3.3369414508342743e-002</internalNodes>
+          <leafValues>
+            -9.3247985839843750e-001 1.4586758613586426e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 128 5.2380945999175310e-004</internalNodes>
+          <leafValues>
+            -2.8349643945693970e-001 6.4983856678009033e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 143 6.1231426661834121e-004</internalNodes>
+          <leafValues>
+            -1.8502233922481537e-001 6.5052211284637451e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 49 1.7017847858369350e-003</internalNodes>
+          <leafValues>
+            2.2008989751338959e-001 -7.2277534008026123e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 133 2.6139442343264818e-003</internalNodes>
+          <leafValues>
+            1.8238025903701782e-001 -7.6262325048446655e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 43 -2.0020073279738426e-003</internalNodes>
+          <leafValues>
+            5.6799399852752686e-001 -2.8219676017761230e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 119 1.9273828947916627e-003</internalNodes>
+          <leafValues>
+            -2.0913636684417725e-001 7.9203850030899048e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 134 -9.4476283993571997e-004</internalNodes>
+          <leafValues>
+            -8.2361942529678345e-001 2.4256958067417145e-001</leafValues></_></weakClassifiers></_>
+    <!-- stage 7 -->
+    <_>
+      <maxWeakCount>10</maxWeakCount>
+      <stageThreshold>-1.4518526792526245e+000</stageThreshold>
+      <weakClassifiers>
+        <_>
+          <internalNodes>
+            0 -1 162 1.6756314784288406e-002</internalNodes>
+          <leafValues>
+            -6.9359332323074341e-001 5.1373954862356186e-002</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 16 2.4082964286208153e-002</internalNodes>
+          <leafValues>
+            -3.3989402651786804e-001 4.5332714915275574e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 186 1.2284796684980392e-003</internalNodes>
+          <leafValues>
+            -2.2297365963459015e-001 6.1439812183380127e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 59 -1.4379122294485569e-003</internalNodes>
+          <leafValues>
+            -6.9444245100021362e-001 2.0446482300758362e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 185 -1.8713285680860281e-003</internalNodes>
+          <leafValues>
+            6.7942184209823608e-001 -2.7580419182777405e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 190 -4.7389674000442028e-003</internalNodes>
+          <leafValues>
+            -7.0437240600585938e-001 2.6915156841278076e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 156 7.4071279959753156e-004</internalNodes>
+          <leafValues>
+            -2.9220902919769287e-001 5.3538239002227783e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 11 -2.2739455103874207e-001</internalNodes>
+          <leafValues>
+            6.6916191577911377e-001 -2.1987228095531464e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 155 -1.0255509987473488e-003</internalNodes>
+          <leafValues>
+            6.3346290588378906e-001 -2.2717863321304321e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 167 2.4775355122983456e-003</internalNodes>
+          <leafValues>
+            -5.4297816753387451e-001 3.1877547502517700e-001</leafValues></_></weakClassifiers></_>
+    <!-- stage 8 -->
+    <_>
+      <maxWeakCount>11</maxWeakCount>
+      <stageThreshold>-1.3153649568557739e+000</stageThreshold>
+      <weakClassifiers>
+        <_>
+          <internalNodes>
+            0 -1 6 1.9131936132907867e-002</internalNodes>
+          <leafValues>
+            -6.0168600082397461e-001 1.9141913950443268e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 42 -4.5855185016989708e-003</internalNodes>
+          <leafValues>
+            2.1901632845401764e-001 -5.7136750221252441e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 53 -1.9026801455765963e-003</internalNodes>
+          <leafValues>
+            -8.0075079202651978e-001 1.6502076387405396e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 19 -3.2767035067081451e-002</internalNodes>
+          <leafValues>
+            5.1496404409408569e-001 -2.5474679470062256e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 129 6.3941581174731255e-004</internalNodes>
+          <leafValues>
+            -1.9851709902286530e-001 6.7218667268753052e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 201 1.5573646873235703e-002</internalNodes>
+          <leafValues>
+            -1.7564551532268524e-001 7.0536541938781738e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 200 9.5508026424795389e-004</internalNodes>
+          <leafValues>
+            -1.9691802561283112e-001 6.1125624179840088e-001</leafValues></_>
+        <_>
+          <internalNodes>
+            0 -1 67 9.0427603572607040e-003</internalNodes>
+          <leafValues>
+            1.6518253087997437e-001 -8.7012130022048950e-001</leafValues></_>
+        <_>
+          +c:storage:toast7)	c:storage:tile ™–+c:storage:toast+c:storage:toast Ô+c:storage:toast ◊+c:storage:toast ø+c:storage:toast ß+c:storage:toast è+c:storage:toastw+c:storage:toast_+c:storage:toastG+c:storage:toast/+c:storage:toastm c:storage:ti)	c:storage:tile ™”)	c:storage:tile ®8)c:storage:tile ®ª)	c:storage:tile ßÒ)	c:storage:tile~)	c:storage:tile[)	c:storage:tile[;)c:storage:tile≈)c:storage:tile\)c:storage:tile∂)c:storage:tile,)c:storage:tile‰)c:storage:tileP)c:storage:tile8)c:storage:tile¿)c:storage:tile®)c:storage:tileê)c:storage:tilex)c:storage:tile`)c:storage:tile0)c:storage:tile)c:storage:tile )c:storage:tileË)c:storage:tile–)c:storage:tile∏)c:storage:tile†)c:storage:tileà)c:storage:tilep)c:storage:tileX)c:storage:tile@)c:storage:tile()c:storage:tile
+)c:storage:tile
+⁄)c:storage:tile
+¬)c:storage:tile
+™   c:storage:tiley)c:storage:tile
+z)c:storage:tile
+b)c:storage:tile
+J)c:storage:tile
+2)c:storage:tile
+)c:storage:tile	Í   [    .Ä÷ÁØ˛Vãƒéˇ•¢¢Ê\Ë  ó Gâ ó ó                                                                                                                                       °-Å÷; ,¡r ÉÖ á                tile<?xml version="1.0" encoding="utf-8"?><tile><visual version="2" Branding="name" baseUri="http://blob.weather.microsoft.com/static/mws-new/" hint-lockDetailedStatus1="Dhaka   95¬∞" hint-lockDetailedStatus2="Haze" hint-lockDetailedStatus3="High 95¬∞, Low 82¬∞"><binding template="TileSmall" hint-textStacking="center" hint-overlay="30" branding="none"><image placement="background" src="WeatherImages/210x173/12.jpg?a" /><text hint-style="caption" hint   \àZÅ÷: ,êL ÉÑ â                tile<?xml version="1.0" encoding="utf-8"?><tile><visual addImageQuery="true" baseUri="http://img-s-msn-com.akamaized.net/tenant/amp/entityid/"><binding template="TileMedium" branding="nameAndLogo" arguments="contentID=AAEHJks" hint-overlay="50"><image placement="peek" src="AAEHOpl.img?w=100&amp;h=100&amp;m=6&amp;tilesize=medium" /><text hint-wrap="true">Sources: DOJ tells Mueller to limit testimony to his report</text></binding><binding template="TileWide" branding="nameAndLogo" arguments="contentID=AAEHJks" hint-overlay="50"><image placement="peek" src="AAEHOpl.img?w=204&amp;h=100&amp;m=6&amp;tilesize=wide" /><text hint-style="body" hint-wrap="true">Sources: DOJ tells Mueller to limit testimony to his report</text></binding><binding template="TileLarge" branding="nameAndLogo" arguments="contentID=AAEHJks" hint-overlay="50"><image placement="peek" src="AAEHOpl.img?w=204&amp;h=204&amp;m=6&amp;tilesize=large" /><text hint-style="subtitle" hint-wrap="true">Sources: DOJ tells Mueller to limit testimony to his report</text></binding></visual></tile>’Cô‘¢*b’A>UdÍbXml  _9 ,êL ÉÉ â                tile<?xml version="1.0" encoding="utf-8"?><tile><visual addImageQuery="true" baseUri="http://img-s-msn-com.akamaized.net/tenant/amp/entityid/"><binding template="TileMedium" branding="nameAndLogo" arguments="contentID=AAEHJks" hint-overlay="50"><image placement="peek" src="AAEHOpl.img?w=100&amp;h=100&amp;m=6&amp;tilesize=medium" /><text hint-wrap="true">Sources: DOJ tells Mueller to limit testimony to his report</text></binding><binding template="TileWide" branding="nameAndLogo" arguments="contentID=AAEHJks" hint-overlay="50"><image placement="peek" src="AAEHOpl.img?w=204&amp;h=100&amp;m=6&amp;tilesize=wide" /><text hint-style="body" hint-wrap="true">Sources: DOJ tells Mueller to limit testimony to his report</text></binding><binding template="TileLarge" branding="nameAndLogo" arguments="contentID=AAEHJks" hint-overlay="50"><image placement="peek" src="AAEHOpl.img?w=204&amp;h=204&amp;m=6&amp;tilesize=large" /><text hint-style="subtitle" hint-wrap="true">Sources: DOJ tells Mueller to limit testimony to his report</text></binding></visual></tile>’Cô‘°z~’A>Ud:~Xmlâ4Å÷8 ,í  ÉÇ ä                tile<?xml version="1.0" encoding="utf-8"?><tile><visual addImageQuery="true" baseUri="http://img-s-msn-com.akamaized.net/tenant/amp/entityid/"><binding template="TileMedium" branding="nameAndLogo" arguments="contentID=AAEHGsO" hint-overlay="50"><image placement="background" src="AAEHOft.img?w=100&amp;h=100&amp;m=6&amp;tilesize=medium&amp;x=716&amp;y=314" /><text hint-wrap="true">GNC to close up to 900 stores as the retail apocalypse roars on</text></binding><binding template="TileWide" branding="nameAndLogo" arguments="contentID=AAEHGsO" hint-overlay="50"><image placement="background" src="AAEHOft.img?w=204&amp;h=100&amp;m=6&amp;tilesize=wide&amp;x=716&amp;y=314" /><text hint-style="body" hint-wrap="true">GNC to close up to 900 stores as the retail apocalypse roars on</text></binding><binding template="TileLarge" branding="nameAndLogo" arguments="contentID=AAEHGsO" hint-overlay="50"><image placement="background" src="AAEHOft.img?w=204&amp;h=204&amp;m=6&amp;tilesize=large&amp;x=716&amp;y=314" /><text hint-style="subtitle" hint-wrap="true">GNC to close up to 900 stores as the retail apocalypse roars on</text></binding></visual></tile>’Cô‘†èÅ’A>UcOÅXml   m    .Ä÷ÁØ˛Vã∆C9âpô]ƒÅ ó¬ßòÄo]M<+Ù„—¡∞üãxhWE5$ˇÏ‹Àª©ôÉq[F6%
+Û
+ﬁ
+√
+≤
+°
+ç
+|
+i
+W
+?
+&
+
+	Û	„	“	¡	≠	ö	ä	\	E	/hu4ò$Ù‰—ø∞†èâyibPA1 ÒﬁÃΩ		¸Ï÷ƒÆôâxgVF1Ù‡œº™íiP≈#XG5#˝Á÷¡∞†ÖlT@/  Ì€Ãº´úÇ	zÌ€ÃPŸ8ììììììììììììììììììììììììììììììileÇ«'# ûs:lock:tileÇ«&% û                 › ¶ ûr:tile› ñ# ûs:lock:tile› Å% ûs:lock:badge› k	 ûs:banner› Y% ûs:lock:toast› C ûs:tile› 3 ûs:tickle› ! ûc:tile›  ûr:badge› )	 âc:storage:tileÚ )	 äc:storage:tile√ )	 àc:storage:tile√ )	 ác:storage:tileÅ )	;c:storage:tile Ç—r!	 ëc:internetÇ’S)	ic:storage:tileÇ’U)	 äc:storage:tileÇ’W)	 âc:storage:tileÅ Ç—s# ës:lock:tileÇ’T)	 ác:storage:tileÇ’P)	 àc:storage:tileÇÕ +	 ìc:storage:toastK )	 ÇœÇ—c:tickleÇ—c:cloudÇ—3c:voipÇ—3c:ringingÇ—!3c:internetÇ—	3c:toastÇ—3c:badgeÇ—	3c:tileÇ—3c:tickleÇ—3c:cloudÇœq)	oc:storage:tileØ 	+	4Ç“+	4c:storage:toastÇ“ +	 ëc:storage:toastÇ—/	 ës:listenerEnabledÇ—~	 ës:voipÇ—}	 ës:badgeÇ—|# ës:stopCloudÇ—{	 ës:audioÇ—z%	 ës:lock:toastÇ—y	 ës:tileÇ—x% ës:lock:badgeÇ—w	 ës:bannerÇ—v ës:tickleÇ—u	 ëc:toastÇ—t	 ës:toastÇ—	c:toastÇ—c:badgeÇ—c:tileÇ–8)	;c:storage:tileé c:voiÇ—"0c:voipÇ—!	0c:ringingÇ— !0c:internetÇ—	0c:toastÇ—0c:badgeÇ—0c:tileÇ—0c:tickleÇ—0c:cloudÇ—c:voipÇ—c:ringingÇ—!c:internetÇœ=+	 óc:storage:toasty +	4c:stoÇ“J	dc:tileÇ“I	dc:tickleÇ“H	dc:cloudÇ“Gxc:voipÇ“F	xc:ringingÇ“E!	xc:internetÇ“D	xc:toastÇ“C	xc:badgeÇ“B	xc:tileÇ“A	xc:tickleÇ“@	xc:cloudÇ—>+	 úc:storage:toastÇ—= úc:voip	q 	+ Ç“K	dc:badgeÇ—;) úc:storage:tileÇ—: úc:tickleÇ—9	 úc:ringingÇ—8 úc:badgeÇ—7! úc:internetÇ—6	 úc:toastÇ—5 úc:cloudÇ—4/ ús:listenerEnabledÇ—3# ús:stopCloudÇ—2 ús:voipÇ—1	 ús:audioÇ—0 ús:badgeÇ—/	 ús:toastÇ—. úr:tileÇ—-# ús:lock:tileÇ—,% ús:lock:badgeÇ—+	 ús:bannerÇ—*% ús:lock:toastÇ—) ús:tileÇ—( ús:tickleÇ—' úc:tileÇ—& úr:badgeÇ¿
+'	;s:cycle:largeÇ¿	)	;s:cycle:mediumÇ¿%	;s:cycle:wideπ 	+	 Ç“L	dc:toastÇ≥ ác:voipÇ≥	 ác:ringingÇ≥!	 ác:internetÇ≥	 ác:toastÇ≥	 ác:badgeÇ≥	 ác:tileÇ≥	 ác:tickleÇ≥	 ác:cloudÇ± õc:voipÇ±+ õc:storage:toastÇ±) õc:storage:tileÇ±	 õc:tickleÇ±	 õc:ringingÇ± 	 õc:badgeÇ∞! õc:internetÇ∞~	 õc:toastÇ∞}	 õc:cloudÇ∞|/	 õs:listenerEnabledÇ∞{# õs:stopCloudÇ∞z	 õs:voipÇ∞y	 õs:audioÇ∞x	 õs:badgeÇ∞w	 õs:toastÇ∞v õr:tileÇ∞u# õs:lock:tileÇ∞t% õs:lock:badgeÇ∞s	 õs:bannerÇ∞r%	 õs:lock:toastÇ∞q	 õs:tileÇ∞p õs:tickleÇ∞o	 õc:tileÇ∞n õr:badgeÇ®& àc:voipÇ®%	 àc:ringingÇ®$!	 àc:internetÇ®#	 àc:toastÇ®"	 àc:badgeÇ®!	 àc:tileÇ® 	 àc:tickleÇ®	 àc:cloudÇ® âc:voipÇ®	 âc:ringingÇ®!	 âc:internetÇ®	 âc:toastÇ®	 âc:badgeÇ®	 âc:tileÇ®	 âc:tickleÇ®	 âc:cloudÇ® äc:voipÇ®	 äc:ringingÇ®!	 äc:internetÇ®	 äc:toastÇ®	 äc:badgeÇ®	 äc:tileÇ®	 äc:tickleÇ®	 äc:cloudÇ•h+	c:storage:toastÇüMic:voipÇüL	ic:ringing  !	ic:internetÇüJ	ic:toastÇüI	ic:badgeÇüH	ic:tileÇüG	ic:tickleÇüF	ic:cloudÇôE+	 óc:storage:toastÇó
+mc:voipÇó		mc:ringingÇó!	mc:internetÇó	mc:toastÇó	mc:badgeÇó	mc:tileÇó	mc:tickleÇó	mc:cloudÇÉ+	 ôc:storage:toastÅ˙)	?c:stoÇ«8+	 ûc:storage:toast   ûc:voip   ˜) ûc:storage:tile   ﬂ ûc:tickle   Õ	 ûc:ringing   ∫ ûc:badge   ©! ûc:internet   ï	 ûc:toast   Ñ ûc:cloud   s/ ûs:listenerEnabled   X# ûs:stopCloud   C ûs:voiÇ“Odc:voipÇ“N	dc:ringingÇ“M!	dc:internet   n   .Ä÷ÁØ˛VãÄ°´( ˛~;   â GËâ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           àZÅ÷H ,êL Éó â                tile<?xml version="1.0" encoding="utf-8"?><tile><visual addImageQuery="true" baseUri="http://img-s-msn-com.akamaized.net/tenant/amp/entityid/"><binding template="TileMedium" branding="nameAndLogo" arguments="contentID=AAEHJks" hint-overlay="50"><image placement="peek" src="AAEHOpl.img?w=100&amp;h=100&amp;m=6&amp;tilesize=medium" /><text hint-wrap="true">Sources: DOJ tells Mueller to limit testimony to his report</text></binding><binding template="TileWide" branding="nameAndLogo" arguments="contentID=AAEHJks" hint-overlay="50"><image placement="peek" src="AAEHOpl.img?w=204&amp;h=100&amp;m=6&amp;tilesize=wide" /><text hint-style="body" hint-wrap="true">Sources: DOJ tells Mueller to limit testimony to his report</text></binding><binding template="TileLarge" branding="nameAndLogo" arguments="contentID=AAEHJks" hint-overlay="50"><image placement="peek" src="AAEHOpl.img?w=204&amp;h=204&amp;m=6&amp;tilesize=large" /><text hint-style="subtitle" hint-wrap="true">Sources: DOJ tells Mueller to limit testimony to his report</text></binding></visual></tile>’CöñF–ä’A?	êäXmlàZÅ÷G ,êL Éñ â                tile<?xml version="1.0" encoding="utf-8"?><tile><visual addImageQuery="true" baseUri="http://img-s-msn-com.akamaized.net/tenant/amp/entityid/"><binding template="TileMedium" branding="nameAndLogo" arguments="contentID=AAEHJks" hint-overlay="50"><image placement="peek" src="AAEHOpl.img?w=100&amp;h=100&amp;m=6&amp;tilesize=medium" /><text hint-wrap="true">Sources: DOJ tells Mueller to limit testimony to his report</text></binding><binding template="TileWide" branding="nameAndLogo" arguments="contentID=AAEHJks" hint-overlay="50"><image placement="peek" src="AAEHOpl.img?w=204&amp;h=100&amp;m=6&amp;tilesize=wide" /><text hint-style="body" hint-wrap="true">Sources: DOJ tells Mueller to limit testimony to his report</text></binding><binding template="TileLarge" branding="nameAndLogo" arguments="contentID=AAEHJks" hint-overlay="50"><image placement="peek" src="AAEHOpl.img?w=204&amp;h=204&amp;m=6&amp;tilesize=large" /><text hint-style="subtitle" hint-wrap="true">Sources: DOJ tells Mueller to limit testimony to his report</text></binding></visual></tile>’CöñFÇ•’A?	B•Xmlâ4Å÷F ,í  Éï ä                tile<?xml version="1.0" encoding="utf-8"?><tile><visual addImageQuery="true" baseUri="http://img-s-msn-com.akamaized.net/tenant/amp/entityid/"><binding template="TileMedium" branding="nameAndLogo" arguments="contentID=AAEHGsO" hint-overlay="50"><image placement="background" src="AAEHOft.img?w=100&amp;h=100&amp;m=6&amp;tilesize=medium&amp;x=716&amp;y=314" /><text hint-wrap="true">GNC to close up to 900 stores as the retail apocalypse roars on</text></binding><binding template="TileWide" branding="nameAndLogo" arguments="contentID=AAEHGsO" hint-overlay="50"><image placement="background" src="AAEHOft.img?w=204&amp;h=100&amp;m=6&amp;tilesize=wide&amp;x=716&amp;y=314" /><text hint-style="body" hint-wrap="true">GNC to close up to 900 stores as the retail apocalypse roars on</text></binding><binding template="TileLarge" branding="nameAndLogo" arguments="contentID=AAEHGsO" hint-overlay="50"><image placement="background" src="AAEHOft.img?w=204&amp;h=204&amp;m=6&amp;tilesize=large&amp;x=716&amp;y=314" /><text hint-style="subtitle" hint-wrap="true">GNC to close up to 900 stores as the retail apocalypse roars on</text></binding></visual></tile>’CöñE-’A?¡-Xml       .Ä÷ÁØ˛Vãô ›‰§JSQLite format 3   @    
+å   n   l                                                     
+å . ö%  Ú ¶-§Ê9
+ 	ª	O‘T≈\Êo©	ô‡hiü Ú.                                                                                      Ç9''Ñ1tableHandlerAssetsHandlerAssetsCREATE TABLE [HandlerAssets]( [HandlerId] INTEGER CONSTRAINT[AssetsToHandler] REFERENCES[NotificationHandler]([RecordId]) ON DELETE CASCADE ON UPDATE CASCADE, [AssetKey] TEXT NOT NULL, [AssetValue] TEXT, CONSTRAINT[] PRIMARY KEY([AssetKey], [HandlerId]) ON CONFLICT REPLACE)9M' indexsqlite_autoindex_HandlerAssets_1HandlerAssetsÇ3--ÑtableNotificationDataNotificationDataCREATE TABLE [NotificationData]( [NotificationId] INTEGER CONSTRAINT[DataToNotification] REFERENCES[Notification]([Id]) ON DELETE CASCADE ON UPDATE CASCADE, [Key] TEXT NOT NULL, [Value] TEXT, CONSTRAINT[] PRIMARY KEY([Key], [NotificationId]) ON CONFLICT REPLACE)?S- indexsqlite_autoindex_NotificationData_1NotificationDataÅÅ]tableMetadataMetadataCREATE TABLE [Metadata]( [Key] TEXT, [Value] INT64, CONSTRAINT[] PRIMARY KEY([Key]) ON CONFLICT REPLACE)/C indexsqlite_autoindex_Metadata_1Metadatan))ÅindexchannelExpiredWNSPushChannelCREATE INDEX [channelExpired] ON [WNSPushChannel] ([ExpiryTime] DESC)d%)ÅindexchannelByAppWNSPushChannelCREATE INDEX [channelByApp] ON [WNSPushChannel] ([HandlerId])Ç7))Ñ)tableWNSPushChannelWNSPushChannelCREATE TABLE [WNSPushChannel]( [ChannelId] TEXT NOT NULL, [HandlerId] INTEGER REFERENCES[NotificationHandler]([RecordId]) ON DELETE CASCADE ON UPDATE CASCADE, [Uri] TEXT, [ExpiryTime] INT64, [CreatedTime] INT64, CONSTRAINT[] PRIMARY KEY([ChannelId]) ON CONFLICT REPLACE);O) indexsqlite_autoindex_WNSPushChannel_1WNSPushChannelt3%ÅindexnotificationExpiredNotificationCREATE INDEX [notificationExpired] ON [Notification] ([ExpiryTime] DESC)g1%ÅindexnotificationByTypeNotificationCREATE INDEX [notificationByType] ON [Notification] ([Type])Å9%ÅGindexnotificationByTagGroupNotificationCREATE INDEX [notificationByTagGroup] ON [Notification] ([HandlerId], [Type], [Group], [Tag])~;%Å)indexnotificationByAppByTypeNotificationCREATE INDEX [notificationByAppByType] ON [Notification] ([HandlerId], [Type])y
+=%ÅindexnotificationByActivityIdNotificationCREATE INDEX [notificationByActivityId] ON [Notification] ([ActivityId])j	/%ÅindexnotificationByAppNotification
+CREATE INDEX [notificationByApp] ON [Notification] ([HandlerId])`-%}indexnotificationByIdNotification	CREATE INDEX [notificationById] ON [Notification] ([Id])É`%%átableNotificationNotificationCREATE TABLE [Notification]( [Order] INTEGER NOT NULL PRIMARY KEY, [Id] INTEGER NOT NULL, [HandlerId] INTEGER CONSTRAINT[NotificationToHandler] REFERENCES[NotificationHandler]([RecordId]) ON DELETE CASCADE ON UPDATE CASCADE, [ActivityId] GUID,[Type] TEXT NOT NULL, [Payload] BLOB, [Tag] TEXT, [Group] TEXT, [ExpiryTime] INT64, [ArrivalTime] INT64, [DataVersion] INT64 DEFAULT '0', [PayloadType] TEXT NOT NULL, UNIQUE([Id]) ON CONFLICT REPLACE)7K% indexsqlite_autoindex_Notification_1Notificationi+ÅindexbySettingHandlerSettingsCREATE INDEX [bySetting] ON[HandlerSettings] ([SettingKey], [Value])Ç?++Ñ5tableHandlerSettingsHandlerSettingsCREATE TABLE [HandlerSettings]( [HandlerId] INTEGER CONSTRAINT[SettingsToHandler] REFERENCES[NotificationHandler]([RecordId]) ON DELETE CASCADE ON UPDATE CASCADE, [SettingKey] TEXT NOT NULL, [Value] INT, CONSTRAINT[] PRIMARY KEY([SettingKey], [HandlerId]) ON CONFLICT REPLACE)=Q+ indexsqlite_autoindex_HandlerSettings_1HandlerSettings       w'3Å!indexbyHandlerNameNotificationHandlerCREATE UNIQUE INDEX [byHandlerName] ON [NotificationHandler] ([PrimaryId])ÇW33ÑUtableNotificationHandlerNotificationHandlerCREATE TABLE [NotificationHandler] ( [RecordId] INTEGER PRIMARY KEY, [PrimaryId] TEXT NOT NULL COLLATE NOCASE, [WNSId] TEXT COLLATE NOCASE, [HandlerType] TEXT, [WNFEventName] INT64, [SystemDataPropertySet] BLOB, [CreatedTime] DATETIME, [ModifiedTime] DATETIME, [ParentId] TEXT COLLATE NOCASE)       .Ä÷ÁØ˛Vão‹é∑Ö)@˘ 
+±   h…ª¥÷œ‰¬ÚÎ›Ú÷£úï°◊ï                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Ö
+ ,â@:                tile<tile>
+	<visual>
+		<binding template="TileMedium" branding="nameAndLogo" hint-textStacking="center">
+			<text hint-style="caption" hint-align="center" hint-wrap="true">ms-resource://microsoft.windowscommunicationsapps/hxcommintl/MAIL_NOTIFICATION_LIVETILE_PROMOTIONAL_OUTLOOK</text>
+		</binding>
+		<binding template="TileLarge" branding="nameAndLogo" hint-textStacking="center">
+			<text hint-style="subtitle" hint-align="center" hint-wrap="true">ms-resource://microsoft.windowscommunicationsapps/hxcommintl/MAIL_NOTIFICATION_LIVETILE_PROMOTIONAL_OUTLOOK</text>
+		</binding>
+	</visual>
+</tile>’.AO≈XmlÖ ,â8:                tile<tile>
+	<visual>
+		<binding template="TileMedium" branding="nameAndLogo" hint-textStacking="center">
+			<text hint-style="caption" hint-align="center" hint-wrap="true">ms-resource://microsoft.windowscommunicationsapps/hxcommintl/MAIL_NOTIFICATION_LIVETILE_PROMOTIONAL_YAHOO</text>
+		</binding>
+		<binding template="TileLarge" branding="nameAndLogo" hint-textStacking="center">
+			<text hint-style="subtitle" hint-align="center" hint-wrap="true">ms-resource://microsoft.windowscommunicationsapps/hxcommintl/MAIL_NOTIFICATION_LIVETILE_PROMOTIONAL_YAHOO</text>
+		</binding>
+	</visual>
+</tile>’.AO≈Xmlçl ,õ:                tile<tile>
+	<visual>
+		<binding template="TileMedium" branding="nameAndLogo" hint-textStacking="center">
+			<text hint-style="caption" hint-align="center" hint-wrap="true">ms-resource://microsoft.windowscommunicationsapps/hxcommintl/MAIL_NOTIFICATION_LIVETILE_PROMOTIONAL_GMAIL</text>
+		</binding>
+		<binding template="TileWide" branding="nameAndLogo">
+			<group>
+				<subgroup>
+					<text hint-align="center">ms-resource://microsoft.windowscommunicationsapps/hxcommintl/MAIL_NOTIFICATION_LIVETILE_PROMOTIONAL_MULTIENDPOINT</text>
+				</subgroup>
+			</group>
+			<group>
+				<subgroup>
+					<text></text>
+				</subgroup>
+			</group>
+			<group>
+				<subgroup hint-weight="1">
+				</subgroup>
+				<subgroup hint-weight="1">
+					<image src="ms-appx:///images/GooglePromoTile.png" hint-removeMargin="true" hint-align="center"/>
+				</subgroup>
+				<subgroup hint-weight="1">
+					<image src="ms-appx:///images/OutlookPromoTile.png" hint-removeMargin="true" hint-align="center"/>
+				</subgroup>
+				<subgroup hint-weight="1">
+					<image src="ms-appx:///images/YahooPromoTile.png" hint-removeMargin="true" hint-align="center"/>
+				</subgroup>
+				<subgroup hint-weight="1">
+				</subgroup>
+			</group>
+			<group>
+				<subgroup>
+					<text hint-align="center">ms-resource://microsoft.windowscommunicationsapps/hxcommintl/MAIL_WIDETILE_PROMO_FOOTER</text>
+				</subgroup>
+			</group>
+		</binding>
+		<binding template="TileLarge" branding="nameAndLogo" hint-textStacking="center">
+			<text hint-style="subtitle" hint-align="center" hint-wrap="true">ms-resource://microsoft.windowscommunicationsapps/hxcommintl/MAIL_NOTIFICATION_LIVETILE_PROMOTIONAL_GMAIL</text>
+		</binding>
+	</visual>
+</tile>’.A!RXmlÇ| ,ÑrA                toast<toast><visual><binding template="ToastImageAndText02"><image id="1" src="file:///C:\Users\MRCHOC~1\AppData\Local\Temp\{7E8FF1B1-2426-40CA-8FC8-FF4238063E99}.png"/><text id="1">An update is being installed</text><text id="2">OneDrive i£ Åï≈ ÅóXÚ Å«)‰ Å d›    UÅ÷*   5Åóg   `Å÷>   4„x   cÅ÷7   YÅ÷3   nÅ÷H   [Å÷;   _Å÷E   ^Å÷A   Å÷,       .Ä÷ÁØ˛VãZT≈fmÃ'
+⁄ &£¬ªãÉ{≥¯–£ÁÃ¨µﬁ˝™Î°’NW*i`ò!Ù«E‚3<ær∏»»êêêêsssssssssssË®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®xxxxx                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   x)W p‰Î	∞ Ë‚∞ ‡‡˝  P+≈  H*√h 8)¡(øh ('Ωh  &ªh %πh $∑h #µ"≥ãê!±ãà Ø≠ãx´ãp©ãhßã`•ãX£ãP°ãHüã@ƒã8¬ã0¿ã(æã ∫ºã∏ã∂ã ¥ã¯≤ã∞ãË
+Æã‡	¨ãÿ™ã–®ã»¶ã¿¢§ã∞†ã® ûã†ˇúãò˛öãê˝òãà¸ñãÄ˙ë˚ìãp˘èãhˆçã`ıããXÙâãPÛáãHÚÖã@ÒÉã8Åã0Ôã(Ó}ã ÌzãÏwãÎuãÍsã Èqã ¯Ëoã Ámã ËÊkã ‡Âhã ÿ‰eã –„cã »‚a  ö¬  ô¿  òæ∏  õ√∏  ñ∫@ ( ï∏Ë  π‹ÿ  œÚ !	 !1% !:. !yV !¢u3 !∏ãC ! ö; !·∞[ !‡Ø[ "≠ 	 Äh=≠ 	 Äh;ÿ  Ä9hOÿ  Ä<h⁄ 	 Åh˘ Äˇh„ ÅûiÇ Ékk* ÉïkF ÉêkA\]KÁì  Äƒh ÉíkC Éuk4 Éèk@ Ésk2 ÉókH ÉñkG ÉÑk: Éék? ÉÖk; ÉìkD ÉîkE ÉëkB ÉÅk7 ÉÇk8 Éåk= Éãk< ÉòkI?Z1¯?Y1˜?X1ˆ    Éçk> Évk5 Étk3?[1˘$
+#	    ÅjiN Éwk6 Éqk0 ÅDi(?]1˚?\1˙   	    .Ä÷ÁØ˛VãÆD.√Kg“ä
+⁄ &£¬ªãÉ{≥¯–£ÁÃ¨µﬁ˝™Î°’NW*i`ò!Ù«E‚3<ær∏»»êêêêsssssssssssË®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®xxxxx                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   x)W p‰Î	∞ Ë‚∞ ‡‡˝  P+≈  H*√h 8)¡(øh ('Ωh  &ªh %πh $∑h #µ"≥ãê!±ãà Ø≠ãx´ãp©ãhßã`•ãX£ãP°ãHüã@ƒã8¬ã0¿ã(æã ∫ºã∏ã∂ã ¥ã¯≤ã∞ãË
+Æã‡	¨ãÿ™ã–®ã»¶ã¿¢§ã∞†ã® ûã†ˇúãò˛öãê˝òãà¸ñãÄ˙ë˚ìãp˘èãhˆçã`ıããXÙâãPÛáãHÚÖã@ÒÉã8Åã0Ôã(Ó}ã ÌzãÏwãÎuãÍsã Èqã ¯Ëoã Ámã ËÊkã ‡Âhã ÿ‰eã –„cã »‚a  ö¬  ô¿  òæ∏  õ√∏  ñ∫@ ( ï∏Ë  π‹ÿ  œÚ !	 !1% !:. !yV !¢u3 !∏ãC ! ö; !·∞[ !‡Ø[ "≠ 	 Äh=≠ 	 Äh;ÿ  Ä9hOÿ  Ä<h⁄ 	 Åh˘ Äˇh„ ÅûiÇ Ékk* ÉïkF ÉêkA\]KÁì  Äƒh ÉíkC Éuk4 Éèk@ Ésk2 ÉókH ÉñkG ÉÑk: Éék? ÉÖk; ÉìkD ÉîkE ÉëkB ÉÅk7 ÉÇk8 Éåk= Éãk< ÉòkI?Z1¯?Y1˜?X1ˆ    Éçk> Évk5 Étk3?[1˘$
+#	    ÅjiN Éwk6 Éqk0 ÅDi(?]1˚?\1˙   
+    .Ä÷ÁØ˛VãNö€o|Ëá
+	 &ºµÆZ‚Öª¥[å˛˜ √úî¬#C;¨m⁄u K+3§}eS“aRYYYYYYY⁄⁄⁄⁄⁄⁄⁄⁄⁄⁄⁄⁄⁄⁄⁄⁄⁄⁄⁄⁄⁄“““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             +x ìW+p ì ì	ª Ë ìª ‡ ì* P ì≈* H ì√r 8 ì¡ ìør ( ìΩr   ìªr  ìπr  ì∑r  ìµ ì≥˙ê ì±˙à ìØ ì≠˙x ì´˙p ì©˙h ìß˙` ì•˙X ì£˙P ì°˙H ìü˙@ ìƒ˙8 ì¬˙0 ì¿˙( ìæ˙  ì∫ ìº˙ ì∏˙ ì∂˙  ì¥˙¯ ì≤˙ ì∞˙Ë ìÆ˙‡ ì¨˙ÿ ì™˙– ì®˙» ì¶˙¿ ì¢ ì§˙∞ ì†˙® ìû˙† ìú˙ò ìö˙ê ìò˙à ìñ˙Ä ìë ìì˙p ìè˙h ìç˙` ìã˙X ìâ˙P ìá˙H ìÖ˙@ ìÉ˙8 ìÅ˙0 ì˙( ì}˙  ìz˙ ìw˙ ìu˙ ìs˙  ìq˙ ¯ ìo˙  ìm˙ Ë ìk˙ ‡ ìh˙ ÿ ìe˙ – ìc˙ » ìa"  ì¬"  ì¿  ìæ≤  â√ âkH ák5 ákE âkG äk2 àk7 àk0 âk> äkFikC¬ äkB àkA âk: äk?ik*ikD ák; ák6 äk8 àk<ik4ik3 ák@ âk= ëiÇ àkI?KÁ,  :1¯s1˜s1ˆ>!i I ìg≠)  ìg¨)  ìg´ ìgÆa 0 ìg©a ( ìg®a   ìgßa  ìg¶ ìg• úiN;i( óh„— E;e— > ùe— 6 ùdˆ úd¢— &;c—  ùb —  úbá— ;b|—  ú]L:1˚:1˙:1˘ Å
+ Å	   /s˚ s˚ E:   :   :   :   A       .Ä÷ÁØ˛Vã»˚Ò,Q
+Y &± D/iÌÍ‘±®|æfïπ˚›¡	SÂK£wí«Û5◊=ç'´aœÖõõSSSSSSSSS
+3CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCiiiii                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+Õ                 W
+Õ¥                ,                	Ÿ~                Ÿh                ˝M ‹                ≈M ∆                √ ö                ¡,                ø n                Ω X                ª B                π ,                ∑                 µ,                ≥¡                ±¡ˆ                Ø,                ≠¡                 ´¡¥                ©¡û                ß¡à                •¡r                £¡\                °¡F                ü¡0                ƒ¡                ¬¡                ¿¡Ó                æ¡ÿ                ∫,                º¡¨                ∏¡ñ                ∂¡Ä                ¥¡j                ≤¡T                ∞¡>                Æ¡(                ¨¡                ™¡¸                ®¡Ê                ¶¡–                ¢,                §¡§                †¡é                û¡x                ú¡b                ö¡L                ò¡6                ñ¡                 ë,                ì¡Ù                è¡ﬁ                ç¡»                ã¡≤                â¡ú                á¡Ü                Ö¡p                É¡Z                Å¡D                ¡.                }¡                z¡                w¡Ï                u¡÷                s¡¿                q¡™                o¡î                m¡~                k¡h                h¡R                e¡<                c¡&                a
+∑ ,                ¬
+∑                 ¿
+ã                 æo B                √o ,                ∫% n                ∏	                 ‹                 Ú	                 «                 %«                 .K                 V£                 uç                 ãÂ                 öπ                 ∞'                 ØÂ                 √œ                 Ÿ'                 Û˚                                  C                 g∞                 g±                 gÕ                 gÊ¡                 g˚¡                 g˝Y                 h,                KÁ,                k?,                k4,                k@,                k6,                k3,                kA,                k:,                kG,                k<,                kD,                k;,                k0,                kH,                k8,                k2,                k=,                kE,                kC,                k7,                1ˆ,                kI,                k*,                kF,                k5,                kB,                1˘,                1¯,                1˜,                
+,                	            ,                iÇ,                i(,                k>,                h„,                iN,                1˚,                1˙       .Ä÷ÁØ˛VãÀ;ô,â…‹
+n &Ô„◊ÀbV›œrf˚ô¶é˛?2∞$®?õL2µ¬ÒY%záïΩ;;;;;;;;;;;;;;;;;;;;;ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     + ìtoastCondensed⁄ ìtoastCondensed◊ ˝ ìtoastCondensed’ Ê ìtoastCondensed” œ ìtoastCondensed–°Ω ìtoastCondensedƒ°¶ ìtoastCondensed¬°è ìtoastCondensed¿°x ìtoastCondensedæ°a ìtoastCondensedº°J ìtoastCondensed∫°3 ìtoastCondensed∏° ìtoastCondensed∂° ìtoastCondensed¥°Ó ìtoastCondensed≤°◊ ìtoastCondensed∞°¿ ìtoastCondensedÆ°© ìtoastCondensed¨°í ìtoastCondensed™°{ ìtoastCondensed®°d ìtoastCondensed¶°M ìtoastCondensed§°6 ìtoastCondensed¢° ìtoastCondensed†° ìtoastCondensedû°Ò ìtoastCondensedú°⁄ ìtoastCondensedö°√ ìtoastCondensedò°¨ ìtoastCondensedñ°ï ìtoastCondensedì°~ ìtoastCondensedë°g ìtoastCondensedè°P ìtoastCondensedç°9 ìtoastCondensedã°" ìtoastCondensedâ° ìtoastCondensedá°Ù ìtoastCondensedÖ°› ìtoastCondensedÉ°∆ ìtoastCondensedÅ°Ø ìtoastCondensed°ò ìtoastCondensed}°Å ìtoastCondensedz°j ìtoastCondensedw°S ìtoastCondensedu°< ìtoastCondenseds°% ìtoastCondensedq° ìtoastCondensedo°˜ ìtoastCondensedm°‡ ìtoastCondensedk°… ìtoastCondensedh°≤ ìtoastCondensede°õ ìtoastCondensedc°Ñ ìtoastCondenseda°m ìtoastCondensed_°V ìtoastCondensed]°? ìtoastCondensed[°( ìtoastCondensedY° ìtoastCondensedW°˙ ìtoastCondensedU°„ ìtoastCondensedS°Ã ìtoastCondensedQ°µ ìtoastCondensedO°û ìtoastCondensedM°á ìtoastCondensedK°p ìtoastCondensedI°Y ìtoastCondensedG°B ìtoastCondensedE°+ ìtoastCondensedC° ìtoastCondensedA° ˝ ìtoastCondensed?° Ê ìtoastCondensed=° œ ìtoastCondensed;° ∏ ìtoastCondensed9° ° ìtoÓ ä ìtoastCondensed¡Ó s ìtoastCondensedøÓ \ ìtoastCondensedΩÓ E ìtoastCondensedªÓ . ìtoastCondensedπÓ  ìtoastCondensed∑˚ 8 ìtoast∂˚ * ìtoast¥˚  ìtoast≤ ìtoast≥Ó * ìtoast∞Ó  ìtoastØÓ  ìtoastL âtilek> ätilekB âtilek= àtilekA âtilek: ätilek?itilekDitilekC âtilekH átilek5 àtilekI àtilek7 âtilekG ätilek2itilek4°itilek3.  ätilek8 átilek6 àtilek<itilek* àtilek0 átilek@ átilek;w âä?tileKÁ;tilei(£  ätilei ätilekF ëtoastiÇ ótoasth„  átilei? átilekE útoastiN:tile1˚:tile1˙:tile1˘:tile1¯stile1˜stile1ˆ≤ Ü ät ìtoastg∞≤ p ìtoastgØ ìtoastgÆ≤ T ìtoastg≠≤ F ìtoastg¨≤ 8 ìtoastg©≤ * ìtoastg®≤  ìtoastg• ìtoastg§ Åbadge
+ Åtile	   Nstileı itile~
+:tile   ,:tile   !:tile   :tile   stile       .Ä÷ÁØ˛Vã•Óp9 ‰ˆ9
+ &È€ÕøweLÖ>!Z˜^mG¢¿VÉí±ìœ/¸ﬁ8)tehÌ-G'ûûûûûûûùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùù                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                5E ìtoastCondensed⁄5, ìtoastCondensed◊5 ìtoastCondensed’5 ˙ ìtoastCondensed”5 · ìtoastCondensed–º! ìtoastCondensedƒº ìtoastCondensed¬ºÔ ìtoastCondensed¿º÷ ìtoastCondensedæºΩ ìtoastCondensedºº§ ìtoastCondensed∫ºã ìtoastCondensed∏ºr ìtoastCondensed∂ºY ìtoastCondensed¥º@ ìtoastCondensed≤º' ìtoastCondensed∞º ìtoastCondensedÆºı ìtoastCondensed¨º‹ ìtoastCondensed™º√ ìtoastCondensed®º™ ìtoastCondensed¶ºë ìtoastCondensed§ºx ìtoastCondensed¢º_ ìtoastCondensed†ºF ìtoastCondensedûº- ìtoastCondensedúº ìtoastCondensedöº˚ ìtoastCondensedòº‚ ìtoastCondensedñº… ìtoastCondensedìº∞ ìtoastCondensedëºó ìtoastCondensedèº~ ìtoastCondensedçºe ìtoastCondensedãºL ìtoastCondensedâº3 ìtoastCondensedáº ìtoastCondensedÖº ìtoastCondensedÉºË ìtoastCondensedÅºœ ìtoastCondensedº∂ ìtoastCondensed}ºù ìtoastCondensedzºÑ ìtoastCondensedwºk ìtoastCondenseduºR ìtoastCondensedsº9 ìtoastCondensedqº  ìtoastCondensedoº ìtoastCondensedmºÓ ìtoastCondensedkº’ ìtoastCondensedhºº ìtoastCondensedeº£ ìtoastCondensedcºä ìtoastCondensedaºq ìtoastCondensed_ºX ìtoastCondensed]º? ìtoastCondensed[º& ìtoastCondensedYº ìtoastCondensedWºÙ ìtoastCondensedUº€ ìtoastCondensedSº¬ ìtoastCondensedQº© ìtoastCondensedOºê ìtoastCondensedMºw ìtoastCondensedKº^ ìtoastCondensedIºE ìtoastCondensedGº, ìtoastCondensedEº ìtoastCondensedCº ˙ ìtoastCondensedAº · ìtoastCondensed?º » ìtoastCondensed=º Ø ì Ø ìtoastCondensed¡ ñ ìtoastCondensedø } ìtoastCondensedΩ d ìtoastCondensedª K ìtoastCondensedπ 2 ìtoastCondensed∑  ìtoastCondensedµı 0 ìtoast¥ı   ìtoast≤ ìtoast≥ P ìtoast∞ @ ìtoastØ¨  ìtoastLÄ ° itilekC âtilek:itilek4itilek*itilekD ätilekB;tilei(itilek3 àtilek< átilek6 àtilek7 átilek; àtilekA âtilek> ätilekF âtilek= ätilek8 àtilekI âtilekH âtilekG átilek5 átilek@ ätilek? ätilek2 átilekE àtilek0   átilek+   àtilek:tile1˚:tile1˙:tile1˘:tile1¯stileCommunity1˜stileLogo1ˆs %'773 ëtoastQuietMomentToastGroupQuietMomentToastTagiÇ?tileKÁ{ ¥73 ëtoastQuietMomentToastGroupQuietMom ìtoastg∞{ ∞ ìtoastgØ ìtoastgÆ{ ê ìtoastg≠{ Ä ìtoastg¨{ p ìtoastg´{ ` ìtoastg™ ìtoastg©{ @ ì útoast574f41a5574f41a5iN ótoastNorton2h„ Åbadge
+ Åtile	   ÖstileCommunity„ ) ì ìtoastH:tile   D:tile   7:tile   *:tile   	AtoasstileLogo       .Ä÷ÁØ˛VãX± ÙF…
+b &£≠∑ù“yoe[‰≤®u4I>∆« TØ¯k‰∫Ó⁄•âì*–PEº:::::::òòòòòòòòòﬁﬁﬁﬁ„„„„„„„„§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§DDDDD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  πtoastCondensed⁄π toastCondensed◊π ‹toastCondensed’π »toastCondensed”π ¥toastCondensed–d»toastCondensedƒd¥toastCondensed¬d†toastCondensed¿dåtoastCondensedædxtoastCondensedºddtoastCondensed∫dPtoastCondensed∏d<toastCondensed∂d(toastCondensed¥dtoastCondensed≤d toastCondensed∞dÏtoastCondensedÆdÿtoastCondensed¨dƒtoastCondensed™d∞toastCondensed®dútoastCondensed¶dàtoastCondensed§dttoastCondensed¢d`toastCondensed†dLtoastCondensedûd8toastCondensedúd$toastCondensedödtoastCondensedòd¸toastCondensedñdËtoastCondensedìd‘toastCondensedëd¿toastCondensedèd¨toastCondensedçdòtoastCondensedãdÑtoastCondensedâdptoastCondensedád\toastCondensedÖdHtoastCondensedÉd4toastCondensedÅd toastCondenseddtoastCondensed}d¯toastCondensedzd‰toastCondensedwd–toastCondensedudºtoastCondensedsd®toastCondensedqdîtoastCondensedodÄtoastCondensedmdltoastCondensedkdXtoastCondensedhdDtoastCondenseded0toastCondensedcdtoastCondensedadtoastCondensed_dÙtoastCondensed]d‡toastCondensed[dÃtoastCondensedYd∏toastCondensedWd§toastCondensedUdêtoastCondensedSd|toastCondensedQdhtoastCondensedOdTtoastCondensedMd@toastCondensedKd,toastCondensedIdtoastCondensedGdtoastCondensedEd toastCondensedCd ‹toastCondensedAd »toastCondensed?d ¥toastCondensed=d †toastCondensedç §toast¬ç ôtoastCondensedø» dtoastCondensedΩ» PtoastCondensedª» <toastCondensedπ» (toastCondensed∑» toastCondensedµ
+toast¥ç toast≤
+toast≥» 7toast∞» ,toastØï toastL¯	tilekC	tilek:	tilek>j	tilek5	tilekI	tilekB	tilek=	tilekA	tilek;	tilek?	tilekD	tilek@	tilek7	tilekG	tilek2	tilek4	tilek3	tilek8® Ó 	tile)	tilek<	tilek0	tilekH	tilekE	tilekF	tile1ˆ	tilek*	tilei(
+toastiÇ	tilek6	tile1˜ d	tileKÁÉ WtoastJ
+toastg¨/ !toastg©E toastg®E toastgß
+toastg≠E toastg´
+toastg∞
+toastiN
+toasth„	tile1˚	tile1˙	tile1˘	tile1¯¿ *tileS¿  toast
+toastH… toastG	badge
+tile	   @tile˜ 
+tile†tile   $tile   tile   tile   	tile       .Ä÷ÁØ˛Vã¡Jﬂ˜¡H£
+Y &%3/Õ±ïÈy˜k!Okª=ï£€ø]]yAááÚ%‰÷Œ…SMµØ©££££££££…………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ˇR’7=EVsWˇD’7Qˇ˝Ñ’7c–N	
+{ñ’7E◊0Ò
+{à’7CS˙≈˝	 å’7√Uˆ»≈	 ~’7¡î=Ò√	˝ b’7¡®–¡’7æÓÚÁø	˝ F’7ΩP«OΩ	˝ 8’7ΩBYuª	˝ *’7º\aπ	˝ ’7ªO ∑	˝ ’7∫)q)µ’7π·E˚≥É|’7∂É±Én’7¥“ÇîØ’7¥”¬≠ÉR’7≥BÎ´ÉD’7≤ôZ©É6’7≤ëÇyßÉ(’7±“¸á•É’7∞&•E£É’7¨òi‹°É˛’7™O≈üÉ’7©ËâìƒÉ‚’7•ØC¬É‘’7§MõM¿É∆’7ùZﬁ"æÉ∏’7õU+–∫’7ú;˙EºÉú’7ï.‰O∏Éé’7îá35∂ÉÄ’7í∏„∑¥Ér’7êñQ≤Éd’7Ñ‚3/∞ÉV’7ÇﬂﬂÆÉH’7Å2"¨É:’7}zÜª™É,’7v—ÎÒ®É’7s°#Œ¶É’7`y∂q¢’7i3Ån§ÉÙ’7_Oaû†ÉÊ’7XÉCSûÉÿ’7Ug„yúÉ ’7R
+b6öÉº’7Rú˚òÉÆ’7PÿAñÉ†’7K‹T.ë’7OâìÉÑ’7IDƒSèÉv’7D‰ÁÄçÉh’7Cõ	7ãÉZ’7C<lâÉL’7BøáÉ>’7'ÉÀÿÖÉ0’7Aå9ÉÉ"’7lâÁÅÉ’7íLøÉ’7–°√}É¯’7àâzÉÍ’7÷»wÉ‹’7Ï∆&uÉŒ’7 ¢sÉ¿’7Î(qÉ≤’7ŒÚ˙oÉ§’7 £Ω®mÉñ’7 }k‡kÉà’7ˇq!_hÉz’7¸‡ieÉl’7¸•ocÉ^’7˚≠çIaÒ ’7⁄3¬Ò ’7	*f¿’ ’7„2üæ	 *’7ÜÔÊ√	 ’7Êﬁ—‚∫7 F’7Êèê∂∏O ’7 ö>‹A ’7,ó8åÚï ’7˘^¬ø ’7ãM°C%£ ’7!£Pt.± ’7¢,¿ΩVï ’7 Jºuï ’7#ÌÊãÕ ’7$πDö˜ö˜ ’7$·ˇû√∞˜ ’7$·ˇO√ØÈ ’7%‹Ÿ|√ ’7%*Á_Ÿ! ’7%Gex≈ÛY ’7%|∑∫ﬂ ’BŒu
+B~g∞/ ’BŒÉÙJTg±Y ’B—)?gÕY ’B—JP'#gÊY ’B—f)1g˚Y ’B—f&‘Xg˝Y ’B—®&Ωh’Cg1?(iN$»Yc\º KÁ’Côg?‚k2’Cö}Cº®k@’CôgÜÙk4’Cö}@≤∑k?’Cö}ßÈÅkD’Côg.Üfk0’Cö};´ık<’Cô‘£a·k;’CöñFÇ•kG’Côj„¥€k6’CöñF–äkH’Cô‘¢*bk:’Cö}¿jåkE’Cö}fwókC’Cô‘ñ]çk7’Cô‘†èÅk8’Cö}Oè≤kA’CöñGzkI’Cö}?-Nk=ë1˜1ˆ   ’Côgô⁄<k5’Cö}]WükB’CôgPwk3’Cô6+Dk*’CöñE-kF1˚1˙1˘1¯’Cö}?Ó∞k>
+	Ú ’AÄqË– i(’BÒøZåNh„’Coπ ·°iÇ   $    .Ä÷ÁØ˛Vã©¥ûçæÉB
+z ¢ëÍ‘æ®í|fP:$¯‚Ã∂†ät^H2⁄ƒÆòÇlV@*˛
+JË“º¶ê©dN8"ˆ‡ ¥ûàr\F0
+Ï
+’
+æ
+ß
+ê
+y
+
+1	
+a
+	Î	‘	Ω	¶	è	x	a	J	2ë	ÔŸ√≠ñhQ:#Ù›∆ØòÅjS<%˜‡…≤õÑmV?(˙„ÃµûápYB+˝Êœ∏°är[D-ˇË—∫£åu^G0Î‘Ω¶èxaJ3Ó◊¿¿¿©               
+ c:storage:tile û £µ
+ c:storage:tile ù £9)c:storage:tile ú ®ª)c:storage:tileo ßÒ+c:storage:toastU#+c:storage:toastT+c:storage:toastSÛ+c:storage:toastR€+c:storage:toastQ√+c:storage:toastP´+c:storage:toastOì+c:storage:toastN{+c:storage:toastMc+c:storage:toastLK+c:storage:toastK3+c:storage:toastJ+c:storage:toastI+c:storage:toastHÎ+c:storage:toastG”+c:storage:toastFª+c:storage:toastCh+c:storage:toastBP+c:storage:toast@+c:storage:toast?ˇ+c:storage:toast>Á+c:storage:toast=œ+c:storage:toast<∑+c:storage:toast;ü+c:storage:toast:á+c:storage:toast9o+c:storage:toast8O+c:storage:toast77+c:storage:toast6+c:storage:toast5+c:storage:toast4 ©+c:storage:toast3◊+c:storage:toast2ø+c:storage:toast1ß+c:storage:toast0+c:storage:toast/g+c:storage:toast.O+c:storage:toast-7+c:storage:toast,+c:storage:toast++c:storage:toast*Ô+c:storage:toast)◊+c:storage:toast(ø+c:storage:toast'ß+c:storage:toast&è+c:storage:toast%w+c:storage:toast$_+c:storage:toast#G+c:storage:toast"/+c:storage:toast!+c:storage:toast ˇ+c:storage:toastÁ+c:storage:toastœ+c:storage:toast∑+c:storage:toastü+c:storage:toastá+c:storage:toasto+c:storage:toastW+c:storage:toast?+c:storage:toast'+c:storage:toast+c:storage:toast˜+c:storage:toastﬂ+c:storage:toast«+c:storage:toastØ+c:storage:toastó+c:storage:toast+c:storage:toastg+c:storage:toastO+c:storage:toast7+c:storage:toast íË+c:storage:toast+c:storage:toast
+ Ô+c:storage:toast	 ◊+c:storage:toast ø+c:storage:toast ß+c:storage:toast è+c:storage:toastw+c:storage:toast_+c:storage:toastG+c:storage:toast/+	c:storage:toast)c:storage:tile â ™◊)c:storage:tile õ òÉ)c:storage:tile ö)c:storage:tile ô\)c:storage:tile ó≈)c:storage:tile ìb)c:storage:tile è∂)c:storage:tile é,)c:storage:tile ç‰)c:storage:tile åP)c:storage:tile ã8)c:storage:tile á ™‘)c:storage:tile à ™ÿ )c:storage:tilei ™”)c:storage:tile ä ™’)c:storage:tile Ü¿)c:storage:tile Ö®)c:storage:tile Ñê)c:storage:tile Éx)c:storage:tile Ç`)c:storage:tile Å~)c:storage:tile Ä0)c:storage:tile)c:storage:tile~ )c:storage:tile}Ë)c:storage:tile|–)c:storage:tile{∏)c:storage:tilez†)c:storage:tileyà)c:storage:tilexp)c:storage:tilewX)c:storage:tilev@)c:storage:tileu()c:storage:tilet
+)c:storage:tiles[)c:storage:tiler
+⁄)c:storage:tileq
+¬)c:storage:tilep
+™   c:storage:tileoo‰)c:storage:tilen
+z)c:storage:tilem
+b)c:storage:tilel
+J)c:storage:tilek
+2)c:storage:tilej
+)c:storage:tileh	Í)c:storage:tileg	“)c:storage:tilef	∫)c:storage:tilee	¢)c:storage:tiled	ä)c:storage:tilec	r)c:storage:tileb	Z)c:storage:tilea	B)c:storage:tile`	*)c:storage:tile_	)c:storage:tile^˙)c:storage:tile]‚)c:storage:tile\ )c:storage:tile[≤)c:storage:tileZö)c:storage:tileYÇ)c:storage:tileXj)c:storage:tileWR)c:storage:tileV:)c:storage:tileU")c:storage:tileT
+)c:storage:tileSÚ)c:storage:tileR⁄)c:storage:tileQ¬)c:storage:tileP™)c:storage:tileOí)c:storage:tileNz)c:storage:tileMb)c:storage:tileLJ)c:storage:tileK2)c:storage:tileJ)c:storage:tileI)c:storage:tileHÍ)c:storage:tileG“)c:storage:tileF∫   %    .Ä÷ÁØ˛VãÅ≥Æ÷¨⁄
+Â ÑÆ ∑çxc9$–ª¶ë|gR=(˛È‘ø™ïÄkVA,Ìÿ√ÆôÑoZE0Î÷¡¨óÇXC.Ô⁄≈∞õÜq\G2Ûﬁ…¥üäu`K!6˙Æ∂‚˜NÃ†äƒ⁄vdO:%˙‰Œ∏¢å
