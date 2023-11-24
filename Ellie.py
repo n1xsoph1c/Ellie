@@ -24,7 +24,7 @@ import E3P.Ellie_Visual_effect as VE
 from E3P.WordAnalizer import WordMeaning
 from E3P.YouTube import YouTube_Downloader
 #----------------- Custom Files ------------------ #
-import music_player
+# import music_player
 import face
 import Videoplayer
 import GLOBALS

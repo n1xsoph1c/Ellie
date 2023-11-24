@@ -2297,3 +2297,10 @@ They eat whatever bugs them. B)
 			Rafi
 : /playmusic
 			Ellie: Starting Music player! You wont be able to use the ui
+
+
+<2023-11-24>
+
+		[15:23]
+			Rafi
+: hello

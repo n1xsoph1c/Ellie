@@ -95,3 +95,7 @@ Rafi
 Rafi
 : /playmusic
 Starting Music player! You wont be able to use the ui
+Rafi
+: hi
+Rafi
+: hello
